@@ -21,10 +21,22 @@ const HomeInfo = ({ currentStage }) => {
           Worked with many companies <br /> and picked up many skills along the way
         </p>
 
-        <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
-          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-        </Link>
+        <div className='flex flex-col gap-3 items-center'>
+          <Link to='/about' className='neo-brutalism-white neo-btn'>
+            Learn more
+            <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          </Link>
+          
+          <a
+            href="https://lively-lollipop-3d1f89.netlify.app/Jatin_Gupta.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='neo-brutalism-white neo-btn'
+          >
+            Download CV
+            <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+          </a>
+        </div>
       </div>
     );
   }

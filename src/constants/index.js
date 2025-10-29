@@ -1,112 +1,105 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    bitbucket,
+    bootstrap,
     car,
+    chart,
+    codesplitting,
+    confluence,
     contact,
     css,
+    docker,
     estate,
     express,
     git,
     github,
+    gitlab,
+    graphql,
     html,
+    imageopt,
     javascript,
+    jest,
+    jira,
+    jwt,
+    Kubernetes,
+    lazyloading,
     linkedin,
     mongodb,
     motion,
     mui,
+    mysql,
     nextjs,
     nodejs,
+    oauth,
     pricewise,
     react,
+    reacttesting,
     redux,
+    restfulapi,
     sass,
     snapgram,
     summiz,
+    supabase,
+    superset,
     tailwindcss,
     threads,
     typescript
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+  // Frontend
+  { imageUrl: html, name: "HTML", type: "Frontend" },
+  { imageUrl: css, name: "CSS", type: "Frontend" },
+  { imageUrl: javascript, name: "JavaScript (ES6)", type: "Frontend" },
+  { imageUrl: typescript, name: "TypeScript", type: "Frontend" },
+  { imageUrl: react, name: "React.js", type: "Frontend" },
+  { imageUrl: nextjs, name: "Next.js", type: "Frontend" },
+  { imageUrl: redux, name: "Redux (Flux)", type: "State Management" },
+  { imageUrl: mui, name: "Material-UI", type: "Frontend" },
+  { imageUrl: tailwindcss, name: "Tailwind CSS", type: "Frontend" },
+  { imageUrl: bootstrap, name: "Bootstrap", type: "Frontend" },
+  { imageUrl: sass, name: "Sass", type: "Frontend" },
+  { imageUrl: motion, name: "Framer Motion", type: "Animation" },
+
+  // Backend
+  { imageUrl: nodejs, name: "Node.js", type: "Backend" },
+  { imageUrl: express, name: "Express.js", type: "Backend" },
+
+  // Database
+  { imageUrl: mysql, name: "MySQL", type: "Database" },
+  { imageUrl: mongodb, name: "MongoDB", type: "Database" },
+  { imageUrl: supabase, name: "Supabase", type: "Database" },
+
+  // Data Visualization
+  { imageUrl: superset, name: "Apache Superset", type: "Data Visualization" },
+  { imageUrl: chart, name: "Chart.js", type: "Data Visualization" },
+
+  // Version Control / Collaboration
+  { imageUrl: git, name: "Git", type: "Version Control" },
+  { imageUrl: github, name: "GitHub", type: "Version Control" },
+  { imageUrl: bitbucket, name: "Bitbucket", type: "Version Control" },
+  { imageUrl: jira, name: "Jira", type: "Project Management" },
+  { imageUrl: confluence, name: "Confluence", type: "Project Management" },
+
+  // APIs & Auth
+  { imageUrl: restfulapi, name: "RESTful APIs", type: "API" },
+  { imageUrl: graphql, name: "GraphQL", type: "API" },
+  { imageUrl: jwt, name: "JWT", type: "Authentication" },
+  { imageUrl: oauth, name: "OAuth", type: "Authentication" },
+
+  // Testing
+  { imageUrl: jest, name: "Jest", type: "Testing" },
+  { imageUrl: reacttesting, name: "React Testing Library", type: "Testing" },
+
+  // DevOps / Deployment
+  { imageUrl: docker, name: "Docker", type: "DevOps" },
+  { imageUrl: Kubernetes, name: "Kubernetes", type: "DevOps" },
+  { imageUrl: gitlab, name: "GitLab CI/CD", type: "DevOps" },
+
+  // Performance
+  { imageUrl: codesplitting, name: "Code Splitting", type: "Performance" },
+  { imageUrl: lazyloading, name: "Lazy Loading", type: "Performance" },
+  { imageUrl: imageopt, name: "Image Optimization", type: "Performance" }
 ];
 
 export const experiences = [
@@ -178,7 +171,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/jatin2306',
     }
 ];
 

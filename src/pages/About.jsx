@@ -1,114 +1,85 @@
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-
-import { CTA } from "../components";
-import { experiences, skills } from "../constants";
-
-import "react-vertical-timeline-component/style.min.css";
+import React from "react";
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import { profileImage } from "../assets/icons";
 
 const About = () => {
   return (
-    <section className='max-container'>
-      <h1 className='head-text'>
-        Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
-          {" "}
-          Adrian
-        </span>{" "}
-        👋
-      </h1>
-
-      <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
-        </p>
-      </div>
-
-      <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
-
-        <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
-              <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+    <section
+      id="about"
+      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-20 lg:mt-20 lg:pt-16"
+    >
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center lg:gap-5">
+        {/* Left Side */}
+        <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+          {/* Greeting */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-2 leading-tight">
+            Hi, I am
+          </h1>
+          {/* Name */}
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-4 leading-tight">
+            Jatin Gupta
+          </h2>
+          {/* Skills Heading with Typing Effect */}
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-primaryBlue leading-tight">
+            <span className="text-black">I am a </span>
+            <ReactTypingEffect
+              text={[
+                "Software Developer",
+                "Software Engineer",
+                "Web Developer",
+                "Coder",
+              ]}
+              speed={100}
+              className="text-primaryBlue"
+              eraseSpeed={50}
+              typingDelay={500}
+              eraseDelay={2000}
+              cursorRenderer={(cursor) => (
+                <span className="text-primaryBlue">{cursor}</span>
+              )}
+            />
+          </h3>
+          {/* About Me Paragraph */}
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+            Software Engineer specializing in frontend development with 3+ years
+            of experience. Built banking-grade applications, reusable UI
+            libraries, and performance-optimized dashboards using React.js,
+            Next.js, and Tailwind CSS. Known for reducing load times by up to
+            80%, improving application stability, and delivering critical
+            features ahead of deadlines.
           </p>
+          {/* Resume Button */}
+          <a
+            href="https://lively-lollipop-3d1f89.netlify.app/Jatin_Gupta.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            Download CV
+          </a>
         </div>
-
-        <div className='mt-12 flex'>
-          <VerticalTimeline>
-            {experiences.map((experience, index) => (
-              <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
-                iconStyle={{ background: experience.iconBg }}
-                icon={
-                  <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                      src={experience.icon}
-                      alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
-                    />
-                  </div>
-                }
-                contentStyle={{
-                  borderBottom: "8px",
-                  borderStyle: "solid",
-                  borderBottomColor: experience.iconBg,
-                  boxShadow: "none",
-                }}
-              >
-                <div>
-                  <h3 className='text-black text-xl font-poppins font-semibold'>
-                    {experience.title}
-                  </h3>
-                  <p
-                    className='text-black-500 font-medium text-base'
-                    style={{ margin: 0 }}
-                  >
-                    {experience.company_name}
-                  </p>
-                </div>
-
-                <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {experience.points.map((point, index) => (
-                    <li
-                      key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
-                    >
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </VerticalTimelineElement>
-            ))}
-          </VerticalTimeline>
+        {/* Right Side */}
+        <div className="md:w-1/2 flex justify-center lg:justify-end">
+          <Tilt
+            className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-full border-4 border-primaryBlue"
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}
+          >
+            <div className="w-full h-full rounded-full overflow-hidden">
+              <img
+                src={profileImage}
+                alt="Jatin Gupta"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </Tilt>
         </div>
       </div>
-
-      <hr className='border-slate-200' />
-
-      <CTA />
     </section>
   );
 };
