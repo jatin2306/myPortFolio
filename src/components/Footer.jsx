@@ -11,7 +11,7 @@ const Footer = () => {
 
       <div className="footer-container">
         <p className="text-gray-600">
-          © {currentYear} <span className="font-bold text-primaryBlue">Jatin Gupta</span>. All rights reserved.
+          © {currentYear} <span className="font-bold text-purple-600">Jatin Gupta</span>. All rights reserved.
         </p>
 
         <div className="flex gap-4 justify-center items-center">

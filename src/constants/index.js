@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, logo, nuvamawealth, deopersindia } from "../assets/images";
 import {
     bitbucket,
     bootstrap,
@@ -104,55 +104,32 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Software Developer (Payroll through - MoonStack)",
+        company_name: "Nuvama Wealth",
+        icon: nuvamawealth,
+        iconBg: "#9333ea",
+        date: "06/2025 - Present | Remote",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining the Order Book module, ensuring high performance and seamless integration.",
+            "Building and extending a React-based library for Apache Superset for dynamic, reusable, and scalable dashboard components.",
+            "Designing and implementing configurable dashboards in Superset based on Figma prototypes, ensuring UI consistency and improved user experience.",
+            "Collaborating with product managers, designers, and data teams to gather requirements, improve data visualization, and streamline analytics workflows.",
+            "Optimizing dashboard performance by implementing query caching, reducing load times by up to 40%.",
+            "Integrating role-based access controls for secure and personalized data views.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Software Engineer",
+        company_name: "Deopersindia",
+        icon: deopersindia,
+        iconBg: "#10b981",
+        date: "2022 - 2025 | Noida, India",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed and developed a fully responsive web application for IDFC First Bank using React.js, Tailwind CSS, and Bootstrap, achieving 100% mobile compatibility and seamless performance.",
+            "Created 20+ reusable UI components, increasing development speed by 35% and ensuring consistent design.",
+            "Improved page load speed by 80% through optimization techniques including lazy loading, intelligent caching, and minimizing redundant API calls.",
+            "Boosted application stability by implementing advanced error handling strategies using React Error Boundaries and custom hooks, reducing crash incidents by 60% in production.",
+            "Collaborated with cross-functional teams (Product, UX, QA) to launch critical features 2 weeks ahead of schedule, increasing stakeholder satisfaction and team efficiency.",
         ],
     },
 ];

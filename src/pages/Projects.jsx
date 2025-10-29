@@ -46,7 +46,7 @@ const Projects = () => {
                   to={project.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
+                  className='font-semibold text-purple-600 hover:text-purple-700 transition-colors'
                 >
                   Live Link
                 </Link>

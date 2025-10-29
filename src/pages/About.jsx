@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-20 lg:mt-20 lg:pt-16"
+      className="py-4 px-4 sm:px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-20 lg:mt-20 lg:pt-16"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center lg:gap-5">
         {/* Left Side */}
@@ -21,7 +21,7 @@ const About = () => {
             Jatin Gupta
           </h2>
           {/* Skills Heading with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-primaryBlue leading-tight">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-purple-600 leading-tight">
             <span className="text-black">I am a </span>
             <ReactTypingEffect
               text={[
@@ -31,12 +31,12 @@ const About = () => {
                 "Coder",
               ]}
               speed={100}
-              className="text-primaryBlue"
+              className="text-purple-600"
               eraseSpeed={50}
               typingDelay={500}
               eraseDelay={2000}
               cursorRenderer={(cursor) => (
-                <span className="text-primaryBlue">{cursor}</span>
+                <span className="text-purple-600">{cursor}</span>
               )}
             />
           </h3>
@@ -62,7 +62,7 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center lg:justify-end">
           <Tilt
-            className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-full border-4 border-primaryBlue"
+            className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-96 lg:h-96 xl:w-[28rem] xl:h-[28rem] rounded-full border-4 border-purple-400"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
