@@ -4,4 +4,4 @@ This is my personal 3D developer portfolio built using React and Three.js to sho
 
 The portfolio highlights my experience in building responsive, performance-optimized web applications, along with interactive 3D elements for an engaging user experience.
 
-![3D Portfolio Preview](https://ibb.co/4ZDDzHKW)
+https://ibb.co/4ZDDzHKW
