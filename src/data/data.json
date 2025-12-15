@@ -1,0 +1,743 @@
+{
+  "personal": {
+    "name": "Jatin Gupta",
+    "firstName": "Jatin",
+    "lastName": "Gupta",
+    "greeting": "Hi, I am",
+    "location": "India",
+    "locationEmoji": "🇮🇳",
+    "logoText": "JG",
+    "email": "jatingupta2306@gmail.com",
+    "phoneNumbers": [
+      "+918882637538",
+      "+918802697950"
+    ],
+    "cvUrl": "https://lively-lollipop-3d1f89.netlify.app/Jatin_Gupta.pdf",
+    "profileImage": "profile2",
+    "typingTexts": [
+      "Software Developer",
+      "Software Engineer",
+      "Web Developer",
+      "Coder"
+    ],
+    "aboutMe": "Software Engineer specializing in frontend development with 3+ years of experience. Built banking-grade applications, reusable UI libraries, and performance-optimized dashboards using React.js, Next.js, and Tailwind CSS. Known for reducing load times by up to 80%, improving application stability, and delivering critical features ahead of deadlines."
+  },
+  "homeInfo": {
+    "stage1": {
+      "greeting": "Hi, I'm",
+      "name": "Jatin",
+      "emoji": "👋",
+      "description": "A Software Engineer from India 🇮🇳"
+    },
+    "stage2": {
+      "text": "Worked with many companies and picked up many skills along the way",
+      "links": [
+        {
+          "text": "Learn more",
+          "type": "internal",
+          "path": "/about"
+        },
+        {
+          "text": "Download CV",
+          "type": "external",
+          "url": "https://lively-lollipop-3d1f89.netlify.app/Jatin_Gupta.pdf"
+        }
+      ]
+    },
+    "stage3": {
+      "text": "Led multiple projects to success over the years. Curious about the impact?",
+      "links": [
+        {
+          "text": "Visit my portfolio",
+          "type": "internal",
+          "path": "/projects"
+        }
+      ]
+    },
+    "stage4": {
+      "text": "Need a project done or looking for a dev? I'm just a few keystrokes away",
+      "links": [
+        {
+          "text": "Let's talk",
+          "type": "internal",
+          "path": "/contact"
+        }
+      ]
+    }
+  },
+  "skills": [
+    {
+      "name": "HTML",
+      "type": "Frontend",
+      "iconKey": "html"
+    },
+    {
+      "name": "CSS",
+      "type": "Frontend",
+      "iconKey": "css"
+    },
+    {
+      "name": "JavaScript (ES6)",
+      "type": "Frontend",
+      "iconKey": "javascript"
+    },
+    {
+      "name": "TypeScript",
+      "type": "Frontend",
+      "iconKey": "typescript"
+    },
+    {
+      "name": "React.js",
+      "type": "Frontend",
+      "iconKey": "react"
+    },
+    {
+      "name": "Next.js",
+      "type": "Frontend",
+      "iconKey": "nextjs"
+    },
+    {
+      "name": "Redux (Flux)",
+      "type": "State Management",
+      "iconKey": "redux"
+    },
+    {
+      "name": "Material-UI",
+      "type": "Frontend",
+      "iconKey": "mui"
+    },
+    {
+      "name": "Tailwind CSS",
+      "type": "Frontend",
+      "iconKey": "tailwindcss"
+    },
+    {
+      "name": "Bootstrap",
+      "type": "Frontend",
+      "iconKey": "bootstrap"
+    },
+    {
+      "name": "Sass",
+      "type": "Frontend",
+      "iconKey": "sass"
+    },
+    {
+      "name": "Framer Motion",
+      "type": "Animation",
+      "iconKey": "motion"
+    },
+    {
+      "name": "Node.js",
+      "type": "Backend",
+      "iconKey": "nodejs"
+    },
+    {
+      "name": "Express.js",
+      "type": "Backend",
+      "iconKey": "express"
+    },
+    {
+      "name": "MySQL",
+      "type": "Database",
+      "iconKey": "mysql"
+    },
+    {
+      "name": "MongoDB",
+      "type": "Database",
+      "iconKey": "mongodb"
+    },
+    {
+      "name": "Supabase",
+      "type": "Database",
+      "iconKey": "supabase"
+    },
+    {
+      "name": "Apache Superset",
+      "type": "Data Visualization",
+      "iconKey": "superset"
+    },
+    {
+      "name": "Chart.js",
+      "type": "Data Visualization",
+      "iconKey": "chart"
+    },
+    {
+      "name": "Git",
+      "type": "Version Control",
+      "iconKey": "git"
+    },
+    {
+      "name": "GitHub",
+      "type": "Version Control",
+      "iconKey": "github"
+    },
+    {
+      "name": "Bitbucket",
+      "type": "Version Control",
+      "iconKey": "bitbucket"
+    },
+    {
+      "name": "Jira",
+      "type": "Project Management",
+      "iconKey": "jira"
+    },
+    {
+      "name": "Confluence",
+      "type": "Project Management",
+      "iconKey": "confluence"
+    },
+    {
+      "name": "RESTful APIs",
+      "type": "API",
+      "iconKey": "restfulapi"
+    },
+    {
+      "name": "GraphQL",
+      "type": "API",
+      "iconKey": "graphql"
+    },
+    {
+      "name": "JWT",
+      "type": "Authentication",
+      "iconKey": "jwt"
+    },
+    {
+      "name": "OAuth",
+      "type": "Authentication",
+      "iconKey": "oauth"
+    },
+    {
+      "name": "Jest",
+      "type": "Testing",
+      "iconKey": "jest"
+    },
+    {
+      "name": "React Testing Library",
+      "type": "Testing",
+      "iconKey": "reacttesting"
+    },
+    {
+      "name": "Docker",
+      "type": "DevOps",
+      "iconKey": "docker"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "DevOps",
+      "iconKey": "Kubernetes"
+    },
+    {
+      "name": "GitLab CI/CD",
+      "type": "DevOps",
+      "iconKey": "gitlab"
+    },
+    {
+      "name": "Code Splitting",
+      "type": "Performance",
+      "iconKey": "codesplitting"
+    },
+    {
+      "name": "Lazy Loading",
+      "type": "Performance",
+      "iconKey": "lazyloading"
+    },
+    {
+      "name": "Image Optimization",
+      "type": "Performance",
+      "iconKey": "imageopt"
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "companyName": "Nuvama Wealth",
+      "iconKey": "nuvamawealth",
+      "iconBg": "#9333ea",
+      "date": "06/2025 - Present | Remote",
+      "points": [
+        "Developing and maintaining the Order Book module, ensuring high performance and seamless integration.",
+        "Building and extending a React-based library for Apache Superset for dynamic, reusable, and scalable dashboard components.",
+        "Designing and implementing configurable dashboards in Superset based on Figma prototypes, ensuring UI consistency and improved user experience.",
+        "Collaborating with product managers, designers, and data teams to gather requirements, improve data visualization, and streamline analytics workflows.",
+        "Optimizing dashboard performance by implementing query caching, reducing load times by up to 40%.",
+        "Integrating role-based access controls for secure and personalized data views."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "companyName": "Deopersindia",
+      "iconKey": "deopersindia",
+      "iconBg": "#10b981",
+      "date": "2022 - 2025 | Noida, India",
+      "points": [
+        "Designed and developed a fully responsive web application for IDFC First Bank using React.js, Tailwind CSS, and Bootstrap, achieving 100% mobile compatibility and seamless performance.",
+        "Created 20+ reusable UI components, increasing development speed by 35% and ensuring consistent design.",
+        "Improved page load speed by 80% through optimization techniques including lazy loading, intelligent caching, and minimizing redundant API calls.",
+        "Boosted application stability by implementing advanced error handling strategies using React Error Boundaries and custom hooks, reducing crash incidents by 60% in production.",
+        "Collaborated with cross-functional teams (Product, UX, QA) to launch critical features 2 weeks ahead of schedule, increasing stakeholder satisfaction and team efficiency."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 13,
+      "name": "GiftsTacc",
+      "description": "A modern gift card and rewards platform providing seamless gift card solutions. Features intuitive user interface, secure transactions, and comprehensive gift card management system.",
+      "longDescription": "Developed GiftsTacc, a comprehensive gift card and rewards platform that enables users to purchase, manage, and redeem gift cards effortlessly. The platform features secure payment processing, user-friendly interface, gift card tracking, and seamless integration with various merchants and services.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://cc.giftstacc.com",
+      "iconKey": "react",
+      "theme": "btn-back-orange",
+      "liveUrl": "https://cc.giftstacc.com",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "Gift card management",
+        "Secure transactions",
+        "User dashboard",
+        "Payment integration",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Agarwal Estates",
+      "description": "A comprehensive real estate platform for property brokers in Bangalore. Features property listings, project showcases, home loan services, and complete property management solutions with transparent transactions.",
+      "longDescription": "Developed a full-featured real estate website for Agarwal Estates, one of Bangalore's leading property brokers. The platform includes residential and commercial property listings, project showcases, home loan assistance, property management services, and a complete resource center. Built with modern web technologies ensuring fast load times and excellent user experience across all devices.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://agarwalestates.com/",
+      "iconKey": "react",
+      "theme": "btn-back-blue",
+      "liveUrl": "https://agarwalestates.com/",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "Property listings & search",
+        "Project showcases",
+        "Home loan services",
+        "Property management",
+        "Responsive design"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "BeMoved App",
+      "description": "A modern mobile and web application platform designed to help users with relocation and moving services. Features intuitive UI/UX and seamless user experience.",
+      "longDescription": "Developed BeMoved, a comprehensive relocation and moving services platform. The application provides users with tools and services to manage their moving process efficiently, featuring an intuitive interface, real-time updates, and seamless integration across web and mobile platforms.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.bemoved.app/",
+      "iconKey": "nextjs",
+      "theme": "btn-back-green",
+      "liveUrl": "https://www.bemoved.app/",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "Responsive design",
+        "Modern UI/UX",
+        "Cross-platform",
+        "Real-time updates",
+        "User-friendly interface"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Parker Pen",
+      "description": "Official website for Parker Pen, a renowned luxury pen brand. Features product catalog, brand history, e-commerce functionality, and elegant design showcasing premium writing instruments.",
+      "longDescription": "Developed the official website for Parker Pen, featuring a comprehensive product catalog, brand heritage content, e-commerce integration, and an elegant design that reflects the premium nature of the brand. The site includes product filtering, detailed product pages, and seamless shopping experience.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://www.parkerpen.com/",
+      "iconKey": "nextjs",
+      "theme": "btn-back-pink",
+      "liveUrl": "https://www.parkerpen.com/",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "E-commerce integration",
+        "Product catalog",
+        "Brand storytelling",
+        "Elegant design",
+        "SEO optimized"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Copper Chips",
+      "description": "A modern web platform for Copper Chips, featuring innovative design and seamless user experience. Built with cutting-edge technologies for optimal performance.",
+      "longDescription": "Developed a modern web platform for Copper Chips with focus on performance, user experience, and innovative design. The platform features responsive design, fast load times, and intuitive navigation, providing users with an exceptional browsing experience.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://copperchips.com/",
+      "iconKey": "react",
+      "theme": "btn-back-yellow",
+      "liveUrl": "https://copperchips.com/",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "Modern design",
+        "Fast performance",
+        "Responsive layout",
+        "SEO optimized",
+        "User-friendly"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Wasalt",
+      "description": "A comprehensive web platform for Wasalt, serving the Saudi Arabian market. Features multilingual support, responsive design, and localized content for optimal user experience.",
+      "longDescription": "Developed Wasalt, a comprehensive web platform designed for the Saudi Arabian market. The platform features multilingual support (Arabic/English), responsive design optimized for all devices, localized content, and seamless user experience tailored to regional preferences.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://wasalt.sa/en",
+      "iconKey": "nextjs",
+      "theme": "btn-back-red",
+      "liveUrl": "https://wasalt.sa/en",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconKey": "tailwindcss"
+        },
+        {
+          "name": "TypeScript",
+          "iconKey": "typescript"
+        }
+      ],
+      "features": [
+        "Multilingual support",
+        "RTL/LTR layouts",
+        "Localized content",
+        "Responsive design",
+        "Regional optimization"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "First Rewards",
+      "description": "A rewards and loyalty platform enabling businesses to engage customers through points, rewards, and gamification. Features comprehensive dashboard and user management.",
+      "longDescription": "Developed First Rewards, a comprehensive loyalty and rewards platform that helps businesses engage customers through points systems, rewards programs, and gamification features. The platform includes admin dashboards, user management, analytics, and seamless integration capabilities.",
+      "imageKey": "https://image.thum.io/get/width/1200/crop/800/noanimate/https://firstrewards.in/",
+      "iconKey": "react",
+      "theme": "btn-back-black",
+      "liveUrl": "https://firstrewards.in/",
+      "githubUrl": "#",
+      "techStack": [
+        {
+          "name": "React.js",
+          "iconKey": "react"
+        },
+        {
+          "name": "Next.js",
+          "iconKey": "nextjs"
+        },
+        {
+          "name": "Node.js",
+          "iconKey": "nodejs"
+        },
+        {
+          "name": "MongoDB",
+          "iconKey": "mongodb"
+        }
+      ],
+      "features": [
+        "Rewards system",
+        "User dashboard",
+        "Analytics & insights",
+        "Gamification",
+        "Admin panel"
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "Contact",
+      "iconKey": "contact",
+      "link": "/contact"
+    },
+    {
+      "name": "GitHub",
+      "iconKey": "github",
+      "link": "https://github.com/YourGitHubUsername"
+    },
+    {
+      "name": "LinkedIn",
+      "iconKey": "linkedin",
+      "link": "https://www.linkedin.com/in/jatin2306"
+    },
+    {
+      "name": "Phone",
+      "iconKey": "phone",
+      "link": "tel:+918882637538",
+      "type": "phone"
+    }
+  ],
+  "contact": {
+    "heading": "Get in Touch",
+    "formLabels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Your Message"
+    },
+    "formPlaceholders": {
+      "name": "John",
+      "email": "John@gmail.com",
+      "message": "Write your thoughts here..."
+    },
+    "submitButton": {
+      "default": "Submit",
+      "loading": "Sending..."
+    },
+    "messages": {
+      "success": "Thank you for your message 😃",
+      "error": "I didn't receive your message 😢"
+    },
+    "toName": "Jatin",
+    "toEmail": "jatingupta2306@gmail.com"
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "About",
+        "path": "/",
+        "type": "link"
+      },
+      {
+        "label": "Skills",
+        "sectionId": "skills",
+        "type": "scroll"
+      },
+      {
+        "label": "Work Exp",
+        "sectionId": "work-experience",
+        "type": "scroll"
+      },
+      {
+        "label": "Projects",
+        "path": "/projects",
+        "type": "link"
+      },
+      {
+        "label": "Contact",
+        "sectionId": "contact",
+        "type": "scroll"
+      }
+    ]
+  },
+  "sections": {
+    "projects": {
+      "heading": "My Projects",
+      "description": "I've embarked on numerous projects throughout the years, but these are the ones I hold closest to my heart. Many of them are open-source, so if you come across something that piques your interest, feel free to explore the codebase and contribute your ideas for further enhancements. Your collaboration is highly valued!"
+    },
+    "skills": {
+      "heading": "My Skills",
+      "description": "A comprehensive collection of technologies and tools I've mastered throughout my journey as a software developer."
+    },
+    "workExperience": {
+      "heading": "Work Experience",
+      "description": "I've worked with different companies where I learned, improved my skills, and collaborated with great teams. Here's an overview of my journey:"
+    },
+    "services": {
+      "heading": "Services",
+      "description": "I offer a range of professional services to help bring your ideas to life. Here's what I can do for you:"
+    }
+  },
+  "services": [
+    {
+      "title": "Full-Stack Web Application Development",
+      "description": "Complete web applications from frontend to backend using modern technologies like React.js, Next.js, Node.js, and Express.js for scalable and robust solutions.",
+      "iconKey": "react",
+      "iconBg": "#9333ea",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile applications built with React Native and modern mobile frameworks, ensuring native performance and user experience.",
+      "iconKey": "react",
+      "iconBg": "#3b82f6",
+      "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Custom Website Development",
+      "description": "Tailored websites designed and developed to meet your specific business needs, with responsive design and modern UI/UX principles.",
+      "iconKey": "nextjs",
+      "iconBg": "#000000",
+      "imageUrl": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Landing Page Development",
+      "description": "High-converting landing pages optimized for conversions, SEO, and user engagement with fast load times and compelling designs.",
+      "iconKey": "html",
+      "iconBg": "#f59e0b",
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "UI/UX Frontend Development",
+      "description": "Beautiful and intuitive user interfaces designed with attention to detail, ensuring seamless user experiences across all devices and screen sizes.",
+      "iconKey": "tailwindcss",
+      "iconBg": "#10b981",
+      "imageUrl": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Backend Development",
+      "description": "Robust server-side solutions using Node.js, Express.js, and modern backend frameworks with RESTful architecture and secure APIs.",
+      "iconKey": "nodejs",
+      "iconBg": "#22c55e",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "API Development & Integration",
+      "description": "RESTful and GraphQL APIs designed for scalability, with seamless third-party integrations and comprehensive documentation.",
+      "iconKey": "restfulapi",
+      "iconBg": "#3b82f6",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Database Design & Management",
+      "description": "Efficient database schemas and management using MySQL, MongoDB, and Supabase with optimized queries and data modeling.",
+      "iconKey": "mongodb",
+      "iconBg": "#10b981",
+      "imageUrl": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "E-Commerce Development",
+      "description": "Complete e-commerce solutions with product management, shopping cart, payment integration, and order tracking systems.",
+      "iconKey": "nextjs",
+      "iconBg": "#f59e0b",
+      "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Website/App Redesign & Modernization",
+      "description": "Transform legacy applications into modern, performant solutions with updated technologies and improved user experiences.",
+      "iconKey": "react",
+      "iconBg": "#9333ea",
+      "imageUrl": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Performance Optimization",
+      "description": "Enhance your application's speed and efficiency through code splitting, lazy loading, intelligent caching, and optimization strategies.",
+      "iconKey": "codesplitting",
+      "iconBg": "#3b82f6",
+      "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Bug Fixing & Code Refactoring",
+      "description": "Identify and resolve bugs, improve code quality, maintainability, and follow best practices for clean, efficient codebases.",
+      "iconKey": "git",
+      "iconBg": "#f97316",
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Deployment & Hosting Setup",
+      "description": "Deploy applications to cloud platforms with Docker, Kubernetes, and CI/CD pipelines for automated, reliable deployments.",
+      "iconKey": "docker",
+      "iconBg": "#3b82f6",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Maintenance & Support",
+      "description": "Ongoing maintenance, updates, security patches, and technical support to keep your applications running smoothly and securely.",
+      "iconKey": "github",
+      "iconBg": "#000000",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Technical Consultation & Project Planning",
+      "description": "Expert guidance on technology stack selection, architecture design, project planning, and technical strategy for your development needs.",
+      "iconKey": "jira",
+      "iconBg": "#2563eb",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Cloud Solutions & DevOps",
+      "description": "Comprehensive cloud infrastructure setup, CI/CD pipelines, containerization, and DevOps practices for scalable and reliable deployments.",
+      "iconKey": "Kubernetes",
+      "iconBg": "#8b5cf6",
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop"
+    }
+  ]
+}
+
